@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(218, 218, 218);
+            margin: 0px;
+        }
+
+        header{
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        header > h1{
+            color: #5240f7;
+            text-shadow: 2px 3px 4px#0000005b;
+        }
+
+        main{
+            background-color: white;
+            margin: 10px;
+            text-align: justify;
+            padding: 0px 10px 10px 10px;
+            border-radius: 20px 0px;
+            box-shadow: 3px 4px 7px#00000071;
+        }
+
+        main > section > article > h2{
+            text-align: center;
+            color: rgb(1, 122, 1);
+            margin: 0px;
+            padding: 10px;
+            text-shadow: 2px 3px 2px #00000044;
+            
+        }
+
+        main section article p{
+            background-color: #dbdbdb;
+            padding: 10px;
+        }
+
+        p#autor{
+            display: inline;
+            text-align: center;
+            font-weight: bold;
+            font-size: 10px;   
+
+        }
+
+        nav{
+            position: relative;
+            background-color: #ff5c5c;
+            padding: 5px;
+            width: 90%;
+            margin: auto;
+            border-radius: 10px 10px 0px 0px;
+            box-shadow: 2px 7px 10px rgba(0, 0, 0, 0.411);
+        }
+
+        nav > a{
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 30px;
+        }
+
+        nav > a:hover{
+            color: #02a8ad;
+            text-decoration: underline;
+        }
+
+        footer{
+            background-color: #000000;
+            padding: 2px;
+        }
+
+        footer > p{
+            color: #ffffff;
+            text-align: center;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header> <!--cabeçalho-->
+        <h1>Meu site</h1>
+        <nav> <!--navegação-->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#"></a>
+        </nav>
+    </header>
+    <main> <!--conteúdo principal-->
+        <section> <!--sessão-->
+            <article>
+                <h2>Lazer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem velit sit ducimus doloribus ullam atque, laudantium laboriosam praesentium illo modi recusandae nesciunt a ipsum placeat amet in rem qui minus?</p>
+                <aside>
+                    <p id="autor">Texto por Felipe Cristian Ehmke</p>
+                </aside>
+            </article>
+            <article> <!--artigo-->
+                <h2>Esportes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates in nihil adipisci fuga neque officia dicta voluptatibus nostrum facilis doloribus laborum cum consequatur blanditiis odio, itaque quae magnam a quas!</p>
+            </article>
+            <article>
+                <h2>Notícias</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, eum culpa. Illo cum, praesentium velit eaque reprehenderit reiciendis sapiente facilis saepe voluptates fuga magni ut a similique dicta voluptate delectus?</p>
+            </article>
+        </section>
+    </main>
+</body>
+    <footer> <!--rodapé-->
+        <p>Criado por Felipe Cristian Ehmke</p>
+    </footer>
+</html>

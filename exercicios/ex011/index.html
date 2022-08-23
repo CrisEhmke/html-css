@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTMl</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Testando adaptação do tamanho das imagens</p>
+    <picture>
+        <source srcset="imagens/img-p.jpg" media="(max-width: 750px)" type="image/jpg">
+        <source srcset="imagens/img-m.jpg" media="(max-width: 1150px)" type="image/jpg">
+        <img src="imagens/img-g.jpg" alt="imagem flexível">
+    </picture>
+    <h1>Inserindo audio</h1>
+    <audio preload="metadata" controls>
+        <source src="music/uptowngirl.mp3" type="audio/mpeg">
+        <source src="music/uptowngirl.ogg" type="audio/ogg">
+    <p>Infelizmente seu navegador não conseguiu reproduzir este audio. Para baixar e escutar offline clique aqui: <a href="music/uptowngirl.mp3">download</a></p>
+    </audio>
+</body>
+</html>

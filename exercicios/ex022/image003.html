@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento da imagem</title>
+
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            height: 200px;
+            width: 50vw;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin-bottom: 5px;
+            background-repeat: no-repeat;
+
+        }
+
+        #b1{
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: left top;
+
+        }
+
+        #b2{
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: right top;
+
+        }
+
+        #b3{
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: right bottom;
+
+        }
+
+        #b4{
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: left bottom;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container" id="b1"></div>
+    <div class="container" id="b2"></div>
+    <div class="container" id="b3"></div>
+    <div class="container" id="b4"></div>
+</body>
+</html>

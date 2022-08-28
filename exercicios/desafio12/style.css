@@ -58,7 +58,7 @@ section p{
     background-color: #2e2e2e;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: left top;
     background-attachment: fixed;
     padding: 7vw 3vw;
 }

@@ -61,7 +61,7 @@ header > p > a:hover{
     width: 40vw;
     font-family: 'Courgette', cursive, sans-serif;
     font-size: 7vh;
-    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
     padding: 10vh 0vw 10vh 6vw;
     text-indent: 2vw;
     text-align: center;
@@ -112,6 +112,54 @@ footer a:hover{
 
 /*RESPONSIVO*/
 
+@media (max-width: 2560px) {
+    header{
+        height: 50vh;
+    }
+
+    header > h1 {
+        font-size: 15vh;
+        padding-top: 14vh;
+    }
+
+    body > section{
+        display: block;
+        margin: auto;
+    }
+
+    .paragrafo{
+        width: 60%;
+        font-family: 'Courgette', cursive, sans-serif;
+        font-size: 5vw;
+        padding: 10vh 6vw;
+        text-indent: 2vw;
+        text-align: center;
+    }
+
+    .conteudo > div > p{
+        height: 100%;
+        width: 60%;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 12vh 3vw;
+    }
+
+    #fundo01, #fundo02{
+        height: 70vw;
+        width: 100%;
+    }
+
+    footer{
+        height: 6vh;
+    }
+
+    footer p{
+        font-size: 3vh;
+        padding-top: 1vh;
+    }
+
+}
+
 @media (max-width: 1440px) {
     header > h1 {
         font-size: 15vh;
@@ -146,12 +194,12 @@ footer a:hover{
     }
 
     footer{
-        height: 8vh;
+        height: 6vh;
     }
 
     footer p{
-        font-size: 4vh;
-        padding-top: 1.5vh;
+        font-size: 3vh;
+        padding-top: 1vh;
     }
 
 }
@@ -181,7 +229,7 @@ footer a:hover{
         width: 70%;
         color: #fff;
         background-color: rgba(0, 0, 0, 0.4);
-        padding: 10vh 3vw;
+        padding: 12vh 3vw;
     }
 
     #fundo01, #fundo02{
@@ -190,12 +238,12 @@ footer a:hover{
     }
 
     footer{
-        height: 8vh;
+        height: 6vh;
     }
 
     footer p{
-        font-size: 4vh;
-        padding-top: 1.5vh;
+        font-size: 3vh;
+        padding-top: 1vh;
     }
 
 }
@@ -235,11 +283,11 @@ footer a:hover{
     }
 
     footer{
-        height: 6vh;
+        height: 5vh;
     }
 
     footer p{
-        font-size: 3vh;
+        font-size: 2.5vh;
         padding-top: 1vh;
     }
 
@@ -280,11 +328,11 @@ footer a:hover{
     }
 
     footer{
-        height: 6vh;
+        height: 4vh;
     }
 
     footer p{
-        font-size: 3vh;
+        font-size: 2vh;
         padding-top: 1vh;
     }
 
@@ -325,7 +373,7 @@ footer a:hover{
     }
 
     footer{
-        height: 5vh;
+        height: 4vh;
     }
 
     footer p{

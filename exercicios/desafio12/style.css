@@ -328,11 +328,11 @@ footer a:hover{
     }
 
     footer{
-        height: 2vh;
+        height: 4vh;
     }
 
     footer p{
-        font-size: 1vh;
+        font-size: 2vh;
         padding-top: 1vh;
     }
 

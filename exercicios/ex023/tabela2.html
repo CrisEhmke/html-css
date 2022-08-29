@@ -6,16 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela-2</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    position: relative;
+}
+
+tr{
+    text-align: center;
+}
+
+caption{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+td,th{
+    padding: 10px 40px;
+    border: 2px solid black;
+}
+
+.number{
+    padding-right: 5px;
+    text-align: right;
+}
+
+thead, tfoot{
+    color: #fff;
+    background-color: gray;
+    text-transform: uppercase;
+}
+
+thead {
+    position: sticky;
+    top: -1px;
+}
+
+tbody > tr:nth-child(even){
+    background-color: lightgray;
+}
+    </style>
 </head>
 
 <body>
     <table>
-        <thead>
+        <caption>Número de pessoas por estado</caption>
+        <thead>  
             <tr>
-                <th>Posição</th>
-                <th>Unidade federativa</th>
-                <th>População</th>
+                <th scope="col">Posição</th>
+                <th scope="col">Unidade federativa</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -158,9 +212,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
-                <td id="noborder"></td>
-                <td><strong>213.317.639</strong></td>
+                <th scope="row">Total de habitantes</th>
+                <td colspan="2" class="number"><strong>213.317.639</strong></td>
             </tr>
         </tfoot>
     </table>

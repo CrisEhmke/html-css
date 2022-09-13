@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.js" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <p>
+                <label for="imas"><input type="radio" name="sexo" id="imas" required value="M">Masculino</label>
+            </p>
+            <p>
+                <label for="ifem"><input type="radio" name="sexo" id="ifem" required value="F">Feminino</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <p>
+                <label for="ifut"><input type="checkbox" name="fut" id="ifut" checked> Futebol</label>
+            </p>
+            <p>
+                <label for="ibas"><input type="checkbox" name="bas" id="ibas"> Basquete</label>
+            </p>
+            <p>
+                <label for="ivol"><input type="checkbox" name="vol" id="ivol"> Vôlei</label>
+            </p>
+        </fieldset>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>

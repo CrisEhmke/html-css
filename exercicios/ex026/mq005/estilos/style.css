@@ -52,7 +52,7 @@ label span{
     transition: 0.3s;
 }
 
-#imenu:checked + label span:nth-child(1){
+/* #imenu:checked + label span:nth-child(1){
     width: 40px;
     transform: rotate(135deg);
     position: relative;
@@ -70,7 +70,7 @@ label span{
     transform: rotate(-135deg);
     position: relative;
     top: 0px;
-}
+} */
 
 header li > a{
     display: block;

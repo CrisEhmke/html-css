@@ -24,7 +24,7 @@ header h1{
 }
 
 header ul{
-    display: none;
+    display: block;
 }
 
 input{

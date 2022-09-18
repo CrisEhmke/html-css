@@ -23,6 +23,10 @@ header h1{
     padding: 20px;
 }
 
+header ul{
+    display: none;
+}
+
 input{
     opacity: 0;
 }

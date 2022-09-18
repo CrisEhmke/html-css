@@ -11,12 +11,10 @@ html{
     background-color: lightgray;
 }
 
-
-
 header{
     background-color: rgb(120, 120, 120);
     padding-bottom: 10px;
-    width: 100vw;
+    
 }
 
 header h1{

@@ -74,7 +74,7 @@
 }
 
 .card #button{
-    height: 40px;
+    height: 6vh;
     width: 100%;
     background-color: var(--cor04);
     border: none;
@@ -114,5 +114,33 @@
     font-size: 12pt;
     color: var(--cor00);
     
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .login-image{
+        width: 90vw;
+        height: auto;
+    }
+    .login-image h1{
+        display: none;
+    }
+
+    .login-image img{
+        width: 60%;
+    }
+
+    .login{
+        width: 100vw;
+    }
+
+    .card{
+        height: 90%;
+        width: ;
+    }
 }
 

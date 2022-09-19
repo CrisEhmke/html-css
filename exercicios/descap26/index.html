@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela login</title>
-    <link rel="stylesheet" href="estilos/style.css">
-</head>
-<body>
-    <main>
-        <section id="container">
-            <section id="foto">
 
-            </section>
-            <section id="login">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tela login</title>
+    <link rel="stylesheet" href="estilos/style.css" />
+
+</head>
+
+<body>
+    <main class="container">
+        <section class="login-image">
+            <h1>Seja bem vindo!<br>Insira o e-mail e senha para efetuar o login.</h1>
+            <img src="imagens/login-animate.svg" alt="imagem login">
+        </section>
+        <section class="login">
+            <form action="cadastro.js" method="post" class="card">
                 <h1>Login</h1>
-                <p>Seja bem vindo! Insira o e-mail e senha para efetuar o login</p>
-            </section>
+                <div class="text">
+                    <label for="iemail">Usuário</label>
+                    <input type="email" name="email" id="iemail" placeholder="Usuário">
+
+                    <label for="ipass">Senha</label>
+                    <input type="password" name="password" id="ipass" placeholder="Senha">
+                </div>
+                <input id="button" type="submit" value="LOGIN">
+            </form>
+            
         </section>
     </main>
 </body>
+
 </html>

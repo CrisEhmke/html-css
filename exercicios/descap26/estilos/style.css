@@ -32,6 +32,7 @@ body{
 }
 
 .left-side{
+    position: static;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,6 +46,7 @@ body{
 }
 
 .right-side{
+    position: static;
     display: flex;
     align-items: center;
     justify-content: center;

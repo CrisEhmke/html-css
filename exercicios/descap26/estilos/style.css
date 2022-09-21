@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-
-
 *{
     margin: 0;
     padding: 0;
@@ -13,134 +11,96 @@
     --cor00: #ffffff;
     --cor01: #170a1c;
     --cor02: #281231;
-    --cor03: #4a1a50;
+    --cor03: #3b1441;
     --cor04: #00ff8c;
-    --cor05: #0e0213;
+    --cor05: #0e02135e;
     --cor06: #37af8f;
 }
 
+body{
+    background-color: var(--cor02);
+}
+
 .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--cor02);
     height: 100vh;
     width: 100vw;
-    background-color: var(--cor01);
+}
+
+.left-side{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 90%;
+    min-height: 20vh;
+    max-height: 50vh;
 }
 
-.login-image{
-    width: 50vw;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.left-side img{
+    max-width: 250px;
 }
 
-.login-image h1{
-    color: var(--cor04);
-    text-align: center;
-}
-
-.login-image > img{
-    width: 50%;
-}
-
-.login{
-    width: 50vw;
-    height: 100vh;
+.right-side{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 90%;
+    min-height: 20vh;
+    max-height: 50vh;
+    margin-top: 10px;
 }
 
 .card{
-    width: 70%;
-    height: 60%;
-    color: var(--cor00);
-    background-color: var(--cor02);
-    padding: 0px 20px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;      
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px var(--cor05);
-}
-
-.card > h1{
-    color: var(--cor04);
-    font-size: 2.5em;
-}
-
-.card #button{
-    height: 6vh;
-    width: 100%;
-    background-color: var(--cor04);
-    border: none;
-    font-weight: bolder;
-    text-transform: uppercase;
-    box-shadow: 0px 0px 10px 2px var(--cor06);
-}
-
-.text{
-    display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: flex-start;
-    margin-bottom: 10px;
-    height: 50%;
-    width: 100%;
-}
-
-.text label{
-    font-size: 1em;
-    margin: 10px 0px;
-}
-
-.text input::placeholder{
-    color: var(--cor00);
-    font-size: 10pt;
-}
-
-.text input{
-    height: 20%;
-    width: 100%;
     background-color: var(--cor03);
+    width: 250px;
+    height: 250px;
+    padding: 0px 30px;
     border-radius: 10px;
+    box-shadow: 0px 0px 15px var(--cor05);
+}
+
+.card h1{
+    font-size: 2em;
+    color: var(--cor04);
+}
+
+.card > input{
+    width: 100%;
+    height: 30px;
+    padding: 5px 0px;
     border: none;
-    outline: none;
-    text-indent: 10px;
-    font-size: 12pt;
+    color: var(--cor01);
+    background-color: var(--cor04);
+    box-shadow: 0px 0px 5px var(--cor06);
+}
+
+.user-aling{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0px 20px 0px;
+}
+
+.user-aling label{
+    margin: 5px 0px;
     color: var(--cor00);
-    
 }
 
-@media screen and (max-width: 600px){
-    .container{
-        flex-direction: column;
-        height: auto;
-    }
-
-    .login-image{
-        width: 90vw;
-        height: auto;
-    }
-    .login-image h1{
-        display: none;
-    }
-
-    .login-image img{
-        width: 60%;
-    }
-
-    .login{
-        width: 100vw;
-    }
-
-    .card{
-        height: 90%;
-        width: ;
-    }
+.user-aling input{
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    text-indent: 5px;
 }
-

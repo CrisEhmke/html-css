@@ -22,17 +22,18 @@ body{
 }
 
 .container{
+    position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
-    gap: 190px;
     background-color: var(--cor02);
-    height: 100vh;
+    height: 500px;
     width: 100vw;
 }
 
 .left-side{
+    position: absolute;
+    top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,6 +47,8 @@ body{
 }
 
 .right-side{
+    position: absolute;
+    top: 280px;
     display: flex;
     align-items: center;
     justify-content: center;

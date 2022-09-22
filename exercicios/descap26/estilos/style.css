@@ -18,16 +18,12 @@
 }
 
 body{
-    background-color: var(--cor02);
-}
-
-.container{
     position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: var(--cor02);
-    height: 500px;
+    height: 100vh;
     width: 100vw;
 }
 
